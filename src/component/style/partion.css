@@ -1,0 +1,31 @@
+ 
+
+.scroll-container {
+    width: 60%; /* Fixed width of the container */
+    height: 20%;
+
+    margin-top: 2px;
+    margin-left: 1px;
+    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+    white-space: nowrap; /* Prevent content from wrapping to the next line */
+   
+  }
+  
+  .scroll-content {
+    display: inline-block;
+  }
+  
+  .box1,.box2, .box3, .box4 {
+    display: inline-block;
+    width: 280px;
+
+    
+    height: 280px;
+    margin-right: 10px;
+    background-color: #EEF2F5;
+    line-height: 20px;
+    border-radius: 5px;
+  }
+  
+  
+  

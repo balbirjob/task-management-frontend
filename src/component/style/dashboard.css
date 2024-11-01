@@ -1,0 +1,18 @@
+.app {
+  display: flex;
+  height: 99vh;
+  position: fixed;
+  width: 99%;
+  
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+
+}
+
+h1 {
+  color: #333;
+}

@@ -1,0 +1,54 @@
+/* Login page */
+.container{
+    display: flex;
+    height: 100vh;
+    
+}
+/* fist div image */
+.div1{
+    width: 50%;
+    background-color:#17A2B8;
+    
+    
+}
+/* first image */
+.backimg{
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 12%;
+    position: relative;
+
+
+   
+}
+/* sendond image */
+.frontimg{
+    width: 20%;
+    position: absolute;
+    top: 25%;
+    left: 14%;
+
+}
+/* wecome p tag */
+.p1{
+    color:#FFFFFF;
+    margin-top: 13%;
+    margin-left: 27%;
+    font: bold;
+    font-size: x-large;
+}
+/* just p tag */
+.p2{
+    color:#FFFFFF;
+    margin-left:35%;
+  font-size: x-small;
+}
+
+/* form div */
+.div2{
+    width: 50%;
+    margin: auto;
+    max-width: 500px;
+    background-color: #FFFFFF;  
+}

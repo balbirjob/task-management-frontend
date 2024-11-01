@@ -1,0 +1,123 @@
+.sidebar {
+  width: 170px;
+  height: 98vh;
+  background-color: #FFFFFF;
+  color: #707070;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.logo {
+  text-align: center;
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+.mlogo {
+  padding-top: 15px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #FFFFFF;
+}
+
+.menu-items button {
+  background-color: transparent;
+  border: none;
+  color: #707070;
+  font-size: 18px;
+  padding: 10px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* when we move cursor on buttom then this thing happend */
+/* use in login or ragister form */
+.menu-items button:hover {
+  background-color: #4391ED1A;
+  color: black;
+
+}
+
+.icon {
+  margin-right: 12px;
+}
+
+.logout {
+  margin-top: 210px;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.logout button {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 22px;
+}
+
+/* when clik on logout modal  style */
+.modaldiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  height: 200px;
+}
+
+
+/* inside modal heding and two button */
+
+.container {
+  text-align: center;
+  /* Center the content horizontally */
+  margin-top: 10px;
+  /* Add some space at the top */
+}
+
+.heading {
+  margin-bottom: 30px;
+  /* Space between heading and first button */
+}
+
+.btn1,
+.btn2 {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn1 {
+  background-color: #17A2B8;
+  color: white;
+  border: none;
+
+}
+
+.btn2 {
+  background-color: #FFFFFF;
+  color: #CF3636;
+  border: 2px solid #CF3636;
+
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
